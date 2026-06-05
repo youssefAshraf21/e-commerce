@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Cairo:wght@200..1000&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jomhuria&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import "tailwindcss";
 /* font-family: 'Inter', sans-serif; */
 /* font-family: "DM Sans", sans-serif; */
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   
 }
@@ -19,7 +17,7 @@
   --border_color: #E5E5E5;
 }
 
-.body {
+body {
   background-color: #fff;
   font-family: 'Inter', sans-serif;
 }
@@ -33,18 +31,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'DM Sans', sans-serif;
 }
 
-span {
-color: var(--main_color);
-}
 
 p {
   color: var(--p_color);
 }
 
-input,button,select,textarea {
-  border: none;
-  outline: none;
-} 
+
 
 a {
   text-decoration: none;
